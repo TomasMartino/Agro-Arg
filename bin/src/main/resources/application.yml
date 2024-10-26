@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+application:
+  security:
+    jwt:
+      secret-Key: mysecretkey
+      expiration: 86400000
+      refresh-token:
+        expiration: 1209600000

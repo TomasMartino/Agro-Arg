@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+    rel="stylesheet">
+  <title>Agro Arg</title>
+</head>
+
+<body>
+
+  <header>
+
+    <div class="container-1">
+      <div class="elementos-principales">
+        <div class="logo">
+          <img src="imagenes/logo2.jpeg" alt="">
+
+        </div>
+
+        <div class="InputContainer">
+          <input id="input" class="input" name="text" type="text" placeholder="Buscar artículo..." required />
+          <label class="labelforsearch" for="input">
+            <svg class="searchIcon" viewBox="0 0 512 512">
+              <path
+                d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z">
+              </path>
+            </svg>
+          </label>
+        </div>
+
+
+        <div class="button-container">
+
+
+          <button class="button" id="openModalBtn">
+            <svg class="icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
+              height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M12 2.5a5.5 5.5 0 0 1 3.096 10.047 9.005 9.005 0 0 1 5.9 8.181.75.75 0 1 1-1.499.044 7.5 7.5 0 0 0-14.993 0 .75.75 0 0 1-1.5-.045 9.005 9.005 0 0 1 5.9-8.18A5.5 5.5 0 0 1 12 2.5ZM8 8a4 4 0 1 0 8 0 4 4 0 0 0-8 0Z">
+              </path>
+            </svg>
+          </button>
+
+          <button class="button" onclick="location.href='carrito.html'">
+            <svg class="icon" stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+              stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em"
+              xmlns="http://www.w3.org/2000/svg">
+              <circle cx="9" cy="21" r="1"></circle>
+              <circle cx="20" cy="21" r="1"></circle>
+              <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+            </svg>
+          </button>
+
+
+        </div>
+
+
+      </div>
+    </div>
+    </div>
+
+    <div class="barra">
+
+      <ul class="menu-horizontal">
+        <li><a href="#">Inicio</a></li>
+        <li>
+          <a href="#">Categorias</a>
+          <ul class="menu-vertical">
+            <li><a href="#camiones">Tractores</a></li>
+            <li><a href="#camiones">Camiones</a></li>
+            <li><a href="#camiones">Cosechadoras</a></li>
+
+            <li>
+              <a href="#serv-4">Otros Productos</a>
+              <ul class="menu-vertical sub-menu">
+                <li><a href="#serv-4">Accesorios</a></li>
+                <li><a href="#serv-4">Servicio Tecnico</a></li>
+                <li><a href="#serv-4">Manuales</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="">Quienes Somos</a>
+
+        </li>
+        <li><a href="#contactos">Contactos</a></li>
+      </ul>
+
+
+
+    </div>
+
+
+
+  </header>
+
+
+
+
+
+  <main>
+
+    <div class="container-2">
+
+      <div class="presentacion">
+
+        <div class="image-container">
+          <img src="imagenes/9.jpg" alt="Descripción de la imagen">
+          <div class="overlay"></div>
+        </div>
+
+
+        <!-- <img src="imagenes/9.jpg" alt=""> -->
+
+      </div>
+
+      <!-- Construccion del galeria  -->
+      <div class="titulo-galeria">
+        <h1>Ultimos Modelos</h1>
+      </div>
+
+
+
+      <div class="galeria-contenedor" id="camiones">
+
+        <div class="imagenes">
+
+          <div class="subtitulo">
+            <h3>
+              Camion Articulado Terex TA400
+            </h3>
+          </div>
+
+
+          <div class="imagen">
+            <img src="imagenes/camiones/camion articulado blanco.jfif" alt="">
+
+          </div>
+
+
+          <div class="botones">
+
+
+
+
+            <button class="btn"> COMPRAR
+
+            </button>
+          </div>
+
+        </div>
+
+        <div class="imagenes">
+
+          <div class="subtitulo">
+            <h3>
+              Camion Articulado CAT 730
+            </h3>
+          </div>
+
+
+
+          <div class="imagen">
+            <img src="imagenes/camiones/camion articulado.jfif" alt="">
+
+          </div>
+
+
+          <div class="botones">
+
+
+            <button class="btn"> COMPRAR
+
+            </button>
+          </div>
+
+
+
+        </div>
+
+        <div class="imagenes">
+
+          <h3>
+            Cosechadora New Holland
+          </h3>
+
+          <div class="imagen">
+            <img src="imagenes/cosechadoras/cosechadora amarilla.jfif" alt="">
+
+          </div>
+
+          <div class="botones">
+
+
+            <button class="btn"> COMPRAR
+
+            </button>
+          </div>
+
+
+        </div>
+
+        <div class="imagenes">
+
+          <h3>
+            Cosechadora Jhon Deere Z500
+          </h3>
+
+          <div class="imagen">
+
+            <img src="imagenes/cosechadoras/cosechadora verde.jfif" alt="">
+
+          </div>
+
+          <div class="botones">
+
+
+            <button class="btn"> COMPRAR
+
+            </button>
+
+          </div>
+
+
+        </div>
+
+        <div class="imagenes">
+
+          <h3>
+            Tractor PM 250
+          </h3>
+
+
+          <div class="imagen">
+            <img src="imagenes/tractores/tractor amarillo.jfif" alt="">
+
+          </div>
+
+
+          <div class="botones">
+
+
+            <button class="btn"> COMPRAR
+
+            </button>
+          </div>
+        </div>
+
+        <div class="imagenes">
+
+          <h3>
+            Tractor John Deere s400R
+          </h3>
+
+          <div class="imagen">
+
+            <img src="imagenes/tractores/tractor verde.jfif" alt="">
+
+          </div>
+
+          <div class="botones">
+
+
+            <button class="btn">COMPRAR
+
+            </button>
+          </div>
+
+
+
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <!-- Modal (formulario de inicio de sesión) -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <form id="login-form" class="form ">
+          <p class="form-title">Inicia sesión en tu cuenta</p>
+          <div class="input-container">
+            <input placeholder="Email" id="username" type="email" required>
+            <span>
+              <svg stroke="currentColor" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207">
+                </path>
+              </svg>
+            </span>
+          </div>
+          <div class="input-container">
+            <input placeholder="Contraseña" id="password" type="password" required>
+            <span>
+              <svg stroke="currentColor" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke-width="2" stroke-linejoin="round"
+                  stroke-linecap="round"></path>
+                <path
+                  d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+                  stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path>
+              </svg>
+            </span>
+          </div>
+          <button class="submit" type="submit">
+            Inicia sesión
+          </button>
+          <p class="signup-link">
+            ¿No tienes cuenta?
+            <a id="open-register" href="#">Regístrate</a>
+          </p>
+        </form>
+      </div>
+    </div>
+
+    <!-- Modal (formulario de regsitro de sesión) -->
+    <div id="modal-register" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <form id="register-form" class="form ">
+          <p class="form-title">Create una Cuenta</p>
+          <div class="input-container">
+            <input placeholder="Email" id="username" type="email" required>
+            <span>
+              <svg stroke="currentColor" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207">
+                </path>
+              </svg>
+            </span>
+          </div>
+          <div class="input-container">
+            <input placeholder="Nombre" id="firstname" type="firstname" required>
+            <span>
+              <svg stroke="currentColor" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207">
+                </path>
+              </svg>
+            </span>
+          </div>
+          <div class="input-container">
+            <input placeholder="Apellido" id="lastname" type="lastname" required>
+            <span>
+              <svg stroke="currentColor" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207">
+                </path>
+              </svg>
+            </span>
+          </div>
+          <div class="input-container">
+            <input placeholder="Contraseña" id="password" type="password" required>
+            <span>
+              <svg stroke="currentColor" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke-width="2" stroke-linejoin="round"
+                  stroke-linecap="round"></path>
+                <path
+                  d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+                  stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path>
+              </svg>
+            </span>
+          </div>
+          <button id="register-button" class="submit" type="submit">
+            Registrate
+          </button>
+          <p class="signup-link">
+            ¿Ya tienes cuenta?
+            <a id="openModalBtn">Inicia secion</a>
+          </p>
+        </form>
+      </div>
+    </div>
+
+
+  </main>
+
+  <script src="funciones.js"></script> <!-- Archivo JS externo -->
+
+</body>
+
+
+<!-- Creacion de footer  -->
+
+
+<footer>
+
+  <div class="container-3">
+
+    <div class="intro-servicios">
+
+
+      <div class="imagen-fondo">
+
+      </div>
+
+    </div>
+
+
+
+    <section class="horario">
+      <div class="horario-info container">
+
+        <h2>Informacion Importante</h2>
+        <div class="horario-txt">
+          <div class="txt">
+
+            <!-- Creacion de la Direccion  -->
+
+            <h4>Direccion</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur
+            </p>
+            <p>
+              sit amet consectetur
+            </p>
+          </div>
+
+          <!-- Creacion de la Horario  -->
+
+          <div class="txt">
+
+            <h4>Horario</h4>
+            <p>
+              Lunes a Viernes : 9am a 11pm
+            </p>
+            <p>
+              Sabado y Domingo : 11am a 5pm
+            </p>
+          </div>
+
+          <!-- Creacion del telefono  -->
+
+          <div class="txt">
+            <h4>Telefono</h4>
+            <p>
+              Whatsapp : 261759416
+            </p>
+            <p>
+              Whatsapp : 261759416
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Creacion de las Redes Sociales  -->
+
+
+
+    <ul class="wrapper">
+      <li class="icon facebook">
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="1.2em" viewBox="0 0 320 512">
+          <path
+            d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+          </path>
+        </svg>
+      </li>
+      <li class="icon twitter">
+        <svg class="twitter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="currentColor" height="1.8em">
+          <path
+            d="M42,12.429c-1.323,0.586-2.746,0.977-4.247,1.162c1.526-0.906,2.7-2.351,3.251-4.058c-1.428,0.837-3.01,1.452-4.693,1.776C34.967,9.884,33.05,9,30.926,9c-4.08,0-7.387,3.278-7.387,7.32c0,0.572,0.067,1.129,0.193,1.67c-6.138-0.308-11.582-3.226-15.224-7.654c-0.64,1.082-1,2.349-1,3.686c0,2.541,1.301,4.778,3.285,6.096c-1.211-0.037-2.351-0.374-3.349-0.914c0,0.022,0,0.055,0,0.086c0,3.551,2.547,6.508,5.923,7.181c-0.617,0.169-1.269,0.263-1.941,0.263c-0.477,0-0.942-0.054-1.392-0.135c0.94,2.902,3.667,5.023,6.898,5.086c-2.528,1.96-5.712,3.134-9.174,3.134c-0.598,0-1.183-0.034-1.761-0.104C9.268,36.786,13.152,38,17.321,38c13.585,0,21.017-11.156,21.017-20.834c0-0.317-0.01-0.633-0.025-0.945C39.763,15.197,41.013,13.905,42,12.429">
+          </path>
+        </svg>
+      </li>
+      <li class="icon instagram">
+        <svg viewBox="0 0 16 16" class="bi bi-instagram" fill="currentColor" height="1.2em"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z">
+          </path>
+        </svg>
+      </li>
+    </ul>
+
+    <!-- Creacion de ubicacion (mapa de google)  -->
+
+    <section>
+
+      <iframe class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26804.48727013532!2d-68.8585191!3d-32.8833352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e093ec45179bf%3A0x205a78f6d20efa3a!2sMendoza%2C%20Capital%2C%20Mendoza!5e0!3m2!1ses-419!2sar!4v1695856757671!5m2!1ses-419!2sar"
+        width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+
+    </section>
+
+
+</footer>
+</html>
